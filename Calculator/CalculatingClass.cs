@@ -10,6 +10,8 @@ namespace Calculator
     {
         public static string SplitString(string stringInput)
         {
+            //Splits the string at the given operator character, gets rid of possible white spaces
+            //and then puts the given operator back in between the two newly created new strings.
             string[] stringNumbers;
             string answer = "";
             string splitInTwo = string.Concat(stringInput.Where(s => !Char.IsWhiteSpace(s)));
@@ -36,6 +38,7 @@ namespace Calculator
             }
             else
             {
+                //Made the future output into a string to be able to pass the following i case of handling error.
                 answer = "You did not provide one of the four basic mathematical operators!";
             }
             return answer;

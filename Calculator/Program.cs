@@ -10,15 +10,16 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            //Getting a single input from user
             string answer = "";
-            Console.Write("Type in two numbers and a calculation method (e.g. 4 * 5 or 2 + 6): ");
+            Console.Write("Type in two numbers and a calculation operator (e.g. 4 * 5 or 2 + 6): ");
             try
             {
                 answer = CalculatingClass.SplitString(Console.ReadLine());
             }
             catch (Exception)
             {
-                Console.WriteLine("Invalid input!");
+                answer = "Invalid input!";
             }
             Console.WriteLine(answer);
             Console.ReadKey();

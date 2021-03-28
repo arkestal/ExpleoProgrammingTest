@@ -10,8 +10,6 @@ namespace DetectAnagram
     {
         static void Main(string[] args)
         {
-            //Unit test for method is located DetectAnagramTests.AnagramMethodTests
-
             //Getting two inputs from user
             Console.Write("Please enter your first word: ");
             string firstInput = Console.ReadLine();
