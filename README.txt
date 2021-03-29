@@ -5,7 +5,7 @@ Functional program that the detects if two strings provided by user are anagrams
 Unit-test included.
 Found at "DetectAnagram"(project)  -> Program.cs
 Method							               -> AnagramMethod.cs
-Tests	   "DetectAnagramTests"	     -> AnagramMethodTests.cs
+Tests    "DetectAnagramTests"	     -> AnagramMethodTests.cs
 
 Find all links on a wep page
 Functional program that counts and displays the number of links on a page (default page: https://www.sporcle.com/).
